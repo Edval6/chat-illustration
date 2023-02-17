@@ -43,7 +43,7 @@ p{
 
 .mobile{
     width: 30%;
-    height: 420px;
+    min-height: 420px;
     border-radius: 10%;
     background-color: white;
     box-shadow: 5px 5px 40px #5d5a615b;
@@ -51,7 +51,7 @@ p{
 
 .fundo{
     width: 90%;
-    height: 90%;
+    min-height: 90%;
     margin: auto;
     margin-top: -10%;
     border-radius: 5%;
@@ -111,4 +111,56 @@ h3{
     font-family: sans-serif;
     font-weight: 150;
     color: rgba(216, 197, 197, 0.829);
+}
+
+.envio{
+    min-width: 70%;
+    max-width: fit-content;
+    border-radius: 4%;
+    padding: 2% 2% 2% 3%;
+    background-color: rgba(216, 197, 197, 0.829);
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.envio p{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #c16bd5;
+    font-weight: 150;
+}
+
+.resposta-img{
+    width: 80%;
+    border-radius: 4%;
+    padding: 2% 2% 2% 3%;
+    margin-top: 5%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#res-img{
+    width: 50px;
+    border-radius: 30%;
+}
+
+.resposta{
+    width: 75%;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    padding: 2% 2% 2% 3%;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.resposta p{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #3f084b;
+    font-weight: 150;
 }
