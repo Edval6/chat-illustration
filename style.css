@@ -6,7 +6,7 @@
     margin-left: -7%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    background: linear-gradient( #c16bd5, #cb00fb);
+    background: linear-gradient( to right top,  #ab5be9, #ab5be9, #cb00fb);
 }
 
 main{
@@ -17,8 +17,8 @@ main{
     justify-content: space-between;
     position: relative;
     z-index: 1;
-    margin-left: 18.5%;
-    margin-top: -32%;
+    margin-left: 19%;
+    margin-top: -35%;
 }
 
 .texto{
@@ -68,7 +68,7 @@ p{
     border-top-right-radius: 15%;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    background: linear-gradient( to right, #c16bd5, #cb00fb);
+    background: linear-gradient( to right, #ab5be9, #ab5be9, #f58fdaa6);
 }
 
 #hears{
@@ -170,10 +170,10 @@ h3{
 }
 
 .precos{
-    min-width: 70%;
-    max-width: fit-content;
+    min-width: 75%;
+    max-width: 75%;
     padding: 2%;
-    background: linear-gradient( to left, #c16bd5, #cb00fb);
+    background: linear-gradient( to left, #ab5be9, #ab5be9, #f971d5);
     display: flex;
     flex-direction: row;
     border-radius: 5%;
@@ -182,29 +182,28 @@ h3{
 }
 
 #horas{
-    width: 70%;
+    min-width: 70%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
 #horas p{
+    margin-left: 15%;
     font-size: 11px;
     font-family: sans-serif;
-    color: rgba(216, 197, 197, 0.829);
+    color: rgba(253, 242, 242, 0.664);
 }
 
 #min-circulo{
     width: 15px;
     height: 15px;
-    border: solid 1px rgba(216, 197, 197, 0.829);
-    border-radius: 50%;
-    margin-right: 2%;
+    border: solid 1px rgba(253, 242, 242, 0.432);
+    border-radius: 50%; 
 }
 
 #preco{
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 #preco p{
@@ -212,7 +211,7 @@ h3{
     font-family: sans-serif;
     color: white;
     font-weight: 800;
-
+    padding-right: 10%;
 }
 
 input{
@@ -238,4 +237,48 @@ input{
     margin-left: 82%;
     position: relative;
     z-index: 1;
+}
+
+/*responsividade*/
+
+@media only screen and (max-device-width: 900px) {
+
+    #objeto{
+        width: 100%;
+        height: 500px;
+        margin-left: -50%;
+    }
+
+    main{
+        width: 100%;
+        flex-direction: column;
+        margin-top: -100%;
+        margin-left: 0;
+    }
+
+    .mobile{
+        width: 70%;
+        min-height: 520px;
+        margin: auto;
+    }
+
+    #hears{
+        height: 40px;
+    }
+
+    .texto{
+        margin-top: 15%;    
+        align-items: center;
+        text-align: justify;
+    }
+
+    h2{
+        width: 80%;
+        font-size: 40px;
+    }
+
+    #t-normal{
+        width: 80%;
+    }
+
 }
