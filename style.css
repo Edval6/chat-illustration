@@ -223,4 +223,19 @@ input{
     border: none;
     border-radius: 20%;
     box-shadow: 1px 1px 20px  rgba(209, 207, 207, 0.699);
+    color: rgba(209, 207, 207, 0.699);
+    font-weight: 700;
+    padding-left: 5%;
+}
+
+
+#btn-send{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #05065a;
+    margin-top: -14%;
+    margin-left: 82%;
+    position: relative;
+    z-index: 1;
 }
